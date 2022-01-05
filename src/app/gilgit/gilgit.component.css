@@ -9,6 +9,9 @@ body{
     margin: 0%;
     font-family: 'Lato';
 }
+.center{
+    margin-left: 100px;
+}
 .navbar-brand{
     font-family: 'Pacifico';
     font-size: 22px;
