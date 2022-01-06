@@ -11,7 +11,8 @@ import { GilgitComponent } from './gilgit/gilgit.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { NewComponent } from './new/new.component';
-
+import { ErrorComponent } from './error/error.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -60,7 +61,12 @@ const routes: Routes = [
   {
     path:'kashmir',
     component:KashmirComponent
-  }
+  },
+  {
+    path:'register',
+    component:RegisterComponent
+  },
+  { path: '**', component: ErrorComponent },  // Wildcard route for a 404 page
 ];
 
 @NgModule({
